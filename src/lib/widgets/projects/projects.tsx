@@ -9,6 +9,7 @@ const PROJECTS = [
     description:
       'Bead Loop is a SaaS SPA for creating and editing beading patterns. You can explore the UI, create templates and projects, and experiment with different pattern types (Loom, Peyote, Cross)',
     gif: '/bead-loop.webm',
+    poster: '/bead-loop.png',
     tech: [
       'react-router',
       'TypeScript',
@@ -31,6 +32,7 @@ const PROJECTS = [
     description:
       'Hangman is a classic word guessing game where players try to guess a hidden word by suggesting letters. Each incorrect guess brings the hangman closer to completion. Used free external API to get random words and definitions',
     gif: '/hangman.webm',
+    poster: '/hangman.png',
     tech: [
       'Next.js',
       'React',
@@ -50,6 +52,7 @@ const PROJECTS = [
     description:
       'A simple and elegant password generator that creates strong, secure passwords with customizable options',
     gif: '/password-generator.webm',
+    poster: '/password-generator.png',
     tech: ['Vue 3', 'TypeScript', 'Vite', 'SSG', 'CSS'],
     github: 'https://github.com/lnik-m/password-generator-portfolio',
     live: 'https://lnik-password-generator.netlify.app'
@@ -79,7 +82,8 @@ export const Projects = () => {
                     loop
                     muted
                     playsInline
-                    preload="metadata"
+                    preload="none"
+                    poster={project.poster}
                     className="w-full h-full mt-2 opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-500"
                   >
                     <source src={project.gif} type="video/webm" />
