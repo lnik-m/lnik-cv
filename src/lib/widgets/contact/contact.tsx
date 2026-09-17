@@ -22,8 +22,9 @@ export const Contact = () => {
             <span className="text-blue-400">remarkable</span>
           </h2>
           <p className="text-muted-foreground text-lg mb-10 leading-relaxed">
-            I&apos;m currently open to Middle React or Vue Frontend roles. I
-            reply to all messages within 24 hours – feel free to reach out
+            Always open to hearing about interesting React or Vue roles – even
+            if I&apos;m not actively searching. Messages get a reply within 24
+            hours
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
