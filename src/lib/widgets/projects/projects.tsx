@@ -56,6 +56,15 @@ const PROJECTS = [
     tech: ['Vue 3', 'TypeScript', 'Vite', 'SSG', 'CSS'],
     github: 'https://github.com/lnik-m/password-generator-portfolio',
     live: 'https://lnik-password-generator.netlify.app'
+  },
+  {
+    title: 'Mariia Melnikova CV',
+    description:
+      "lnik-cv is my personal portfolio and resume website – a fast, animated, and minimalistic space to showcase who I am, what I do, and what I've built. Here you are!",
+    poster: '/lnik-cv.png',
+    tech: ['Next.js', 'TypeScript', 'SSG', 'CSS', 'motion'],
+    github: 'https://github.com/lnik-m/lnik-cv',
+    live: 'https://lnik-cv.netlify.app'
   }
 ]
 

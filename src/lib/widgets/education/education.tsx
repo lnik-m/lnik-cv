@@ -1,3 +1,5 @@
+import { ExternalLink } from 'lucide-react'
+
 import { FadeUp, SectionLabel } from '@/lib/shared/ui'
 
 const EDUCATION = [
@@ -6,14 +8,16 @@ const EDUCATION = [
     institution: 'ITMO University – QS Top 100 in Computer Science',
     period: '2020 – 2024',
     detail:
-      'Focused on frontend development, UX/UI, and algorithmic problem solving. I brought it all together in my thesis – Bead Loop, a pattern editor where React, TypeScript, and Canvas meet thoughtful design, fast performance, and real usability'
+      'Focused on frontend development, UX/UI, and algorithmic problem solving. I brought it all together in my thesis – Bead Loop, a pattern editor where React, TypeScript, and Canvas meet thoughtful design, fast performance, and real usability',
+    link: 'https://de.ifmo.ru/certificates/e5d7b4f158564b93.pdf'
   },
   {
     degree: 'The Frontend Developer Path',
     institution: 'Scrimba',
     period: '2025 – 2026',
     detail:
-      'Intensive 80+ hour program, created in collaboration with Mozilla MDN. Covers React, APIs, accessibility, responsive design, and modern JavaScript. Includes 12+ portfolio projects and a verified certificate'
+      'Intensive 80+ hour program, created in collaboration with Mozilla MDN. Covers React, APIs, accessibility, responsive design, and modern JavaScript. Includes 12+ portfolio projects and a verified certificate',
+    link: 'https://scrimba.com/@lnik-m:certs'
   }
 ]
 
@@ -48,6 +52,16 @@ export const Education = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {edu.detail}
                 </p>
+                <div className="flex gap-3 mt-2 pt-2 border-t border-border">
+                  <a
+                    href={edu.link}
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-blue-400 transition-colors font-mono"
+                  >
+                    <ExternalLink size={13} /> Certificates
+                  </a>
+                </div>
               </div>
             </FadeUp>
           ))}

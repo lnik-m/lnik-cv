@@ -37,17 +37,17 @@ export const Hero = () => {
       <div className="absolute bottom-20 right-10 w-64 h-64 bg-blue-500/8 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative max-w-5xl 2xl:ml-[25%]">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="flex items-center gap-2 mb-6"
-        >
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          <span className="text-sm font-mono text-muted-foreground">
-            Available for new opportunities
-          </span>
-        </motion.div>
+        {/*<motion.div*/}
+        {/*  initial={{ opacity: 0, y: 20 }}*/}
+        {/*  animate={{ opacity: 1, y: 0 }}*/}
+        {/*  transition={{ duration: 0.5 }}*/}
+        {/*  className="flex items-center gap-2 mb-6"*/}
+        {/*>*/}
+        {/*  <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />*/}
+        {/*  <span className="text-sm font-mono text-muted-foreground">*/}
+        {/*    Available for new opportunities*/}
+        {/*  </span>*/}
+        {/*</motion.div>*/}
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

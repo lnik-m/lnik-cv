@@ -34,32 +34,32 @@ Built with **Next.js 16** and deployed on **Netlify**, it combines modern fronte
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-| :--- | :--- |
-| **Framework** | Next.js 16 (App Router) |
-| **Language** | TypeScript 5.9 |
-| **Styling** | Tailwind CSS 4 |
-| **Animations** | Motion (Framer Motion) |
-| **Package Manager** | Bun |
-| **Deployment** | Netlify |
+| Category            | Technologies            |
+| :------------------ | :---------------------- |
+| **Framework**       | Next.js 16 (App Router) |
+| **Language**        | TypeScript 5.9          |
+| **Styling**         | Tailwind CSS 4          |
+| **Animations**      | Motion (Framer Motion)  |
+| **Package Manager** | Bun                     |
+| **Deployment**      | Netlify                 |
 
 ---
+
 ## 📊 Lighthouse Performance
 
 lnik-cv achieves near-perfect scores across all Core Web Vitals on [desktop]([https://pagespeed.web.dev/analysis/https-bead-loop-netlify-app/0dokmyqio5?form_factor=desktop](https://pagespeed.web.dev/analysis/https-lnik-cv-netlify-app/d83ne8kd6w?form_factor=desktop):
 
-| Metric | Score | Status |
-| :--- | :--- | :--- |
-| **Performance** | 100/100 | ✅ Perfect |
-| **First Contentful Paint** | 0.3 s | ✅ Excellent |
-| **Largest Contentful Paint** | 0.7 s | ✅ Excellent |
-| **Total Blocking Time** | 0 ms | ✅ Excellent |
-| **Cumulative Layout Shift** | 0.006 | ✅ Excellent |
-| **Speed Index** | 0.8 s | ✅ Excellent |
+| Metric                       | Score   | Status       |
+| :--------------------------- | :------ | :----------- |
+| **Performance**              | 100/100 | ✅ Perfect   |
+| **First Contentful Paint**   | 0.3 s   | ✅ Excellent |
+| **Largest Contentful Paint** | 0.7 s   | ✅ Excellent |
+| **Total Blocking Time**      | 0 ms    | ✅ Excellent |
+| **Cumulative Layout Shift**  | 0.006   | ✅ Excellent |
+| **Speed Index**              | 0.8 s   | ✅ Excellent |
 
 ---
 
 ## 🚀 Live Demo
 
 **[lnik-cv.netlify.app](https://lnik-cv.netlify.app)**
-
