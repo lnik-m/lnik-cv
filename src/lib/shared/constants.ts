@@ -2,7 +2,7 @@ export const DEV_LINK = 'https://dev.to/lnik-m'
 export const LINKEDIN_LINK = 'https://www.linkedin.com/in/lnik-m/'
 export const GITHUB_LINK = 'https://github.com/lnik-m'
 export const CV_LINK =
-  'https://drive.google.com/file/d/1QyUe8XNZb78dahusPrR3gsxvQvbSps7Y/view?usp=drive_link'
+  'https://drive.google.com/file/d/1fVCfKkpoqd41L0z8rmyJCmG8LpsR5LlL/view?usp=sharing'
 
 export const MAIL = 'marialnikova@gmail.com'
 
