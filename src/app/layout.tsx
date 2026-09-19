@@ -18,9 +18,42 @@ const inter = Inter({
   subsets: ['latin']
 })
 
+const SITE_URL = 'https://lnik-cv.netlify.app'
+const SITE_NAME = 'Mariia Melnikova'
+const TITLE = 'Mariia Melnikova –Frontend Developer CV'
+const DESCRIPTION =
+  'Frontend Developer CV of Mariia Melnikova: skills, experience and projects in React, Next.js, Vue with TypeScript. View the full portfolio and get in touch'
+const OG_DESCRIPTION =
+  'Frontend Developer CV of Mariia Melnikova: React, Next.js, Vue with TypeScript projects, skills and experience.'
+const OG_IMAGE = `${SITE_URL}/preview.png`
+
 export const metadata: Metadata = {
-  title: 'Mariia Melnikova',
-  description: 'Frontend Developer CV'
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: {
+    canonical: SITE_URL
+  },
+  openGraph: {
+    title: TITLE,
+    description: OG_DESCRIPTION,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: TITLE
+      }
+    ],
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: TITLE,
+    description: OG_DESCRIPTION,
+    images: [OG_IMAGE]
+  }
 }
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
