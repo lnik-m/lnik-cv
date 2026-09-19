@@ -20,9 +20,9 @@ const inter = Inter({
 
 const SITE_URL = 'https://lnik-cv.netlify.app'
 const SITE_NAME = 'Mariia Melnikova'
-const TITLE = 'Mariia Melnikova –Frontend Developer CV'
+const TITLE = 'Mariia Melnikova – Frontend Developer CV'
 const DESCRIPTION =
-  'Frontend Developer CV of Mariia Melnikova: skills, experience and projects in React, Next.js, Vue with TypeScript. View the full portfolio and get in touch'
+  'Frontend Developer portfolio and CV of Mariia Melnikova: work experience, skills and React, Next.js and Vue projects. Get in touch or view the full CV.'
 const OG_DESCRIPTION =
   'Frontend Developer CV of Mariia Melnikova: React, Next.js, Vue with TypeScript projects, skills and experience.'
 const OG_IMAGE = `${SITE_URL}/preview.png`
